@@ -1,0 +1,190 @@
+ .container {
+margin: 10em 0;
+}
+.radio-bot {
+	margin-top: 1em;
+}
+
+.bg{margin-left:200px;margin-top:-38px;}
+#bg{margin-top:50px;}
+#na{margin-top:40px;}
+.name{margin-top:-308px;}
+
+/******************************DONATED BEFORE****************************************/
+.db div {
+     
+	width:150px;
+	margin-left:200px;
+}
+
+.db label {
+  width: 150px;
+  border-radius: 3px;
+  border: 1px solid #777777
+}
+.db div #no{  margin-top:50px; z-index:-1; position:absolute;}
+#nn{margin-left:400px;}
+.db div #eve{  margin-top:50px; z-index:-1; position:absolute;}
+#e{margin-left:400px;}
+.db div #fem{  margin-top:50px; z-index:-1; position:absolute;}
+#ma{margin-left:400px;}
+
+#err{border-radius:3px; border:1px solid #9f0000; background-color:rgba(159,0,0,0.4); margin:40px 0 0 190px;}
+#err ul{padding-top:10px; padding-left:70px;}
+#err ul li{color:black; font-weight:;}
+/* hide input */
+input.radio:empty {
+	margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.5em;
+	text-indent: 3.25em;
+	margin-top: 2em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 2.5em;
+	background: #777777;
+	border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #888
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: #fff;
+	background-color: #9f0000;
+}
+
+input.radio:checked ~ label {
+	color: #000;
+}
+/******************************DONATED BEFORE****************************************/
+.donate-top input[type="submit"] {
+	color: #fff;
+font-size: 1.2em;
+padding: 0.8em 1em;
+border-radius: 3px;
+-webkit-appearance: none;
+text-transform: uppercase;
+display: inline-block;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+font-weight: 700;
+border: 2px solid #e12534;
+outline: none;
+font-family: 'Arimo Sans', sans-serif;
+cursor: pointer;
+background: #be0000;
+width:30%;
+margin-left: 64%;
+margin-top: 10%;
+
+}
+.donate-top input[type="submit"]:hover {
+	border: 2px dotted #000;
+	background: #e12534;
+	color: #000;
+	
+	text-decoration:none;
+}
+
+.donate-top h3 {
+	font-size: 2em;
+	font-weight: 600;
+	color:#9f0000;
+	font-family: 'Audiowide';
+	margin-left: 10.8em;
+
+	text-transform: uppercase;
+}
+.donate-top input[type="text"] {
+width: 400px;
+padding: 12px;
+font-size: 13px;
+font-weight: 600;
+border: 1px solid #999;
+border-radius: 3px;
+outline: none;
+color: #999;
+font-family: 'Arimo Sans', sans-serif;
+margin-top:-25px;
+margin-left:200px;
+position:relative;
+	
+}
+#na,#r,#p,#g,#bg,#d,#f ,#w {
+
+margin-top:25px;
+color: #9f0000;
+font-size:1.22em;
+font-weight:bold;
+float:left;
+font-family: 'Cabin';
+text-transform: uppercase;
+
+}
+
+.donate-top form {
+width: 500px;
+margin-left: 100px;
+}
+#sec
+{
+margin-top:70px;
+
+}
+
+@media only screen and (max-width: 700px)
+{
+#na,#r,#p,#g,#bg,#d,#f {
+
+margin-top:15px;
+
+width:10px;
+}
+.donate-top form {
+
+margin-left: 10px;
+}
+/*.donate-top input[type="text"] {
+width: 60%;
+
+font-size: 10px;
+
+margin-top:5%;
+margin-left:30%;
+
+position:relative;
+	
+} */
+}

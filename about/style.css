@@ -1,0 +1,347 @@
+.cont
+{ text-align:center;
+font-size:1.5em;
+color:#000;
+font-family: 'Roboto Condensed', cursive;
+}
+
+h2
+{
+
+text-shadow: 2px 2px 10px black;
+text-align:center;
+font-family: 'Audiowide', cursive;
+	color:#000;
+	font-weight:600;
+}
+
+h2 a
+{
+text-decoration: none;
+color: #000;
+
+}
+h2 a:hover
+{
+text-decoration: none;
+color: #000;
+cursor: pointer;
+}
+#gv
+{
+border-radius: 4px 4px 4px 4px ;
+border:3px solid white;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+margin-left:42.5%;
+
+width:15%;
+height:auto;
+
+}
+#su
+{
+border-radius: 4px 4px 4px 4px ;
+border:3px solid white;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+margin-left:42.7%;
+
+width:15%;
+height:auto;
+
+}
+h5
+{
+color:#000;
+text-align:center;
+font-weight:900;
+}
+h4
+{
+text-align:center;
+font-size:24px;
+font-weight:900;
+font-family:'Lobster two';
+color:#9f0000;
+}
+#main{
+margin-top:70px;
+}
+  #first {
+   color: #fff;  min-height: 300px; height:auto; max-width: 100%;
+   
+   
+    background-color: cover;
+	 border: 5px #fff;
+    }
+
+   #section1 {
+   color: #fff;  min-height: 450px; height:auto; max-width: 100%;
+    
+    background-image: url('back8.jpg');
+    background-size: cover;
+	 border: 5px #fff; 
+	 box-shadow: 0 0 30px 5px #000 inset; 
+    }
+#section2 {
+   color: #fff;  min-height: 983px; height:auto; max-width: 100%;
+    
+
+	 border: 5px #fff; 
+	
+    }
+	
+.us{ position:absolute; margin:auto;}
+.us p
+{
+width:200px;
+position:absolute;
+margin-left:-10px;
+margin-top:90px;
+font-size:18px;
+color:#9f0000;
+font-weight:900;
+font-family:'Lobster two';
+}
+#one{position:relative;}
+#two{position:absolute; margin:300 0 0 20;}
+#three{position:relative; margin:500 0 0 20;}
+#four{position:absolute; margin:200 0 0 20;}	
+	/****************************************PERSONALIZED**************************************/
+   #tanveer{
+  margin: 60 0 0 300;
+  background-image: url(images/tanveer.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+	
+#deeksha{
+  margin: 60 0 0 600;
+  background-image: url(images/deeksha.jpg);
+  cursor:pointer;
+    background-size: auto 103.9230px;
+  background-position: center;
+}	
+
+	
+	#rishabh{
+  margin: 60 0 0 900;
+  background-image: url(images/rishabh.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+
+ #abhishek{
+  margin: 0 0 0 100;
+  background-image: url(images/abhishek.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+#abhishek p{margin-left:-40px;}	
+#anand{
+  margin: 0 0 0 350;
+  background-image: url(images/anand.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+#anand p{margin-left:-30px;}
+	
+	#apoorva{
+  margin: 0 0 0 600;
+  background-image: url(images/apoorva.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+
+#arundhati{
+  margin: 0 0 0 850;
+  background-image: url(images/arundhati.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+
+	
+	#bhavleen{
+  margin: 0 0 0 1100;
+  background-image: url(images/bhavleen.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+
+ #divesh{
+  margin: 0 0 0 100;
+  background-image: url(images/divesh.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+	
+#garima{
+  margin: 0 0 0 350;
+  background-image: url(images/garima.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+
+	
+	#harsh{
+  margin: 0 0 0 600;
+  background-image: url(images/harsh.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+#harsh p{margin-left:-30px;}
+#himanshu{
+  margin: 0 0 0 850;
+  background-image: url(images/himanshu.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+
+	
+	#kaustabh{
+  margin: 0 0 0 1100;
+  background-image: url(images/kaustabh.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+
+ #khushbu{
+  margin: 0 0 0 100;
+  background-image: url(images/khushbu.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+	
+#pallavi{
+  margin: 0 0 0 350;
+  background-image: url(images/pallavi.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+
+	
+	#preeti{
+  margin: 0 0 0 600;
+  background-image: url(images/preeti.jpg);
+  
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+#preeti p{margin-left:10px;}
+
+#sai{
+  margin: 0 0 0 850;
+  background-image: url(images/sai.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}	
+#sai p{margin-left:-20px;}
+	
+	#sumanyu{
+	
+  margin: 0 0 0 1100;
+  background-image: url(images/sumanyu.jpg);
+  cursor:pointer;
+  background-size: auto 103.9230px;
+  background-position: center;
+}
+/****************************************PERSONALIZED**************************************/
+
+
+/******************************HEXAGON**********************************/
+.hexagon {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  
+  box-shadow: 0 0 25px rgba(0,0,0,0.9);
+  border-left: solid 5px #333333;
+  border-right: solid 5px #333333;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 9.64px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.9);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 90.0000px;
+  height: 51.96152422706633px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-25.9808px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-25.9808px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-25.9808px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -35.3553px;
+  border-top: solid 7.0711px #333333;
+  border-right: solid 7.0711px #333333;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -35.3553px;
+  border-bottom: solid 7.0711px #333333;
+  border-left: solid 7.0711px #333333;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 90.0000px;
+  height: 51.9615px;
+  z-index: 2;
+  background: inherit;
+}
+/******************************HEXAGON**********************************/
